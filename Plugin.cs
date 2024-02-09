@@ -2,14 +2,14 @@
 using BepInEx.Configuration;
 using HarmonyLib;
 
-namespace SpectateCameraConfig
+namespace SpectatorCameraConfig
 {
   [BepInPlugin(PluginInfo.PLUGIN_GUID, PluginInfo.PLUGIN_NAME, PluginInfo.PLUGIN_VERSION)]
 
-  public class SpectateCameraConfig : BaseUnityPlugin
+  public class SpectatorCameraConfig : BaseUnityPlugin
   {
     private readonly Harmony harmony = new Harmony(PluginInfo.PLUGIN_GUID);
-    private static SpectateCameraConfig Instance;
+    private static SpectatorCameraConfig Instance;
     public static ConfigEntry<float> Distance = null;
 
     private void Awake()

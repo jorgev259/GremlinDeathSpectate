@@ -1,10 +1,9 @@
 <Project Sdk="Microsoft.NET.Sdk">
-
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
-    <AssemblyName>SpectateCameraConfig</AssemblyName>
-    <Description>3rd person spectate camera for big headed scavengers</Description>
-    <Version>1.0.0</Version>
+    <AssemblyName>SpectatorCameraConfig</AssemblyName>
+    <Description>3rd person spectator camera for big headed scavengers</Description>
+    <Version>1.0.2</Version>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <LangVersion>latest</LangVersion>
   </PropertyGroup>
